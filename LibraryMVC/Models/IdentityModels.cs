@@ -29,5 +29,6 @@ namespace LibraryMVC.Models
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Library>Library { get; set; }
     }
 }
